@@ -29,7 +29,7 @@ const WorkPage = () => {
             <SectionHeader
               badge="Portfolio"
               title="Our work speaks for itself"
-              description="Real websites for real Orange County businesses."
+              description="Real websites for real Hudson Valley businesses."
             />
 
             {/* Filters */}

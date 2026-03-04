@@ -22,7 +22,7 @@ const AboutPage = () => {
           <div className="container-tight max-w-3xl">
             <div className="inline-flex items-center gap-1.5 px-3 py-1 mb-6 rounded-full bg-primary/10 text-primary text-sm font-medium">
               <MapPin size={14} />
-              <span>Based in Orange County, NY</span>
+              <span>Based in Hudson Valley, NY</span>
             </div>
             <h1 className="font-heading text-4xl sm:text-5xl font-bold text-foreground leading-tight">
               We help local businesses look legit online
@@ -31,7 +31,7 @@ const AboutPage = () => {
               MC WebDev was started by a two-person team of recent college graduates with a simple idea: small businesses deserve websites that are just as professional as the big guys — without the big price tag.
             </p>
             <p className="mt-4 text-muted-foreground leading-relaxed">
-              We work with barbershops, restaurants, contractors, auto shops, and service businesses across Orange County, NY. Our mockup-first process means you see exactly what you're getting before you spend a dime. No surprises. No jargon. Just clean, fast websites that bring in more customers.
+              We work with barbershops, restaurants, contractors, auto shops, and service businesses across Hudson Valley, NY. Our mockup-first process means you see exactly what you're getting before you spend a dime. No surprises. No jargon. Just clean, fast websites that bring in more customers.
             </p>
           </div>
         </section>
