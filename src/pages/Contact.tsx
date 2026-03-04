@@ -88,7 +88,7 @@ const ContactPage = () => {
                       </div>
                       <div>
                         <p className="text-sm font-semibold text-foreground">Service Area</p>
-                        <p className="text-sm text-muted-foreground">Orange County, NY & surrounding areas</p>
+                        <p className="text-sm text-muted-foreground">Hudson Valley, NY & surrounding areas</p>
                       </div>
                     </div>
                   </div>

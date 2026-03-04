@@ -29,7 +29,7 @@ const Testimonials = () => {
         <SectionHeader
           badge="Testimonials"
           title="What our clients say"
-          description="Real feedback from Orange County businesses."
+          description="Real feedback from Hudson Valley businesses."
         />
 
         <div className="grid sm:grid-cols-3 gap-6">

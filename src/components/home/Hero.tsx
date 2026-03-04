@@ -19,11 +19,11 @@ const Hero = () => {
           <div className="animate-fade-in-up">
             <div className="inline-flex items-center gap-1.5 px-3 py-1 mb-6 rounded-full bg-primary/10 text-primary text-sm font-medium">
               <MapPin size={14} />
-              <span>Serving Orange County, NY</span>
+              <span>Serving Hudson Valley, NY</span>
             </div>
 
             <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.5rem] font-bold text-foreground leading-[1.1] tracking-tight">
-              High-converting websites for Orange County, NY businesses.
+              High-converting websites for Hudson Valley, NY businesses.
             </h1>
 
             <p className="mt-6 text-lg text-muted-foreground leading-relaxed max-w-lg">
