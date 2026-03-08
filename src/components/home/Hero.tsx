@@ -21,13 +21,15 @@ const Hero = () => {
               <MapPin size={14} />
               <span>Serving Orange County, NY</span>
             </div>
-
-            <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.5rem] font-bold text-foreground leading-[1.1] tracking-tight">
-              High-converting websites for Orange County, NY businesses.
+            <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.5rem] font-bold text-foreground leading-[1.1] tracking-tight max-w-xl">
+              Deployment ready websites for not so small businesses - 
+              <span className="block">
+                servicing Orange County, NY and beyond.
+              </span>
             </h1>
 
             <p className="mt-6 text-lg text-muted-foreground leading-relaxed max-w-lg">
-              Mobile-first. Fast load times. Built to turn visitors into calls and bookings.
+              Mobile-first. Fast load times. Built to turn visitors into orders, calls and bookings.
             </p>
 
             <p className="mt-3 text-sm text-muted-foreground">

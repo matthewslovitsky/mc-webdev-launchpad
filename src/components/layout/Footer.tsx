@@ -29,7 +29,7 @@ const Footer = () => {
               MC<span className="text-primary">WebDev</span>
             </Link>
             <p className="mt-3 text-sm text-secondary-foreground/60 leading-relaxed">
-              High-converting websites for local businesses in Orange County, NY.
+              Deployment ready websites for local businesses - servicing Orange County, NY and beyond.
             </p>
             <div className="flex items-center gap-1.5 mt-3 text-sm text-secondary-foreground/60">
               <MapPin size={14} />
