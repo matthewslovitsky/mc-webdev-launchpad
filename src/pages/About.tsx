@@ -3,7 +3,9 @@ import Footer from "@/components/layout/Footer";
 import SectionHeader from "@/components/shared/SectionHeader";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Zap, Smartphone, Code2, LayoutGrid, MapPin } from "lucide-react";
+import { Zap, Smartphone, Code2, LayoutGrid, MapPin, GraduationCap } from "lucide-react";
+import sunyCortlandLogo from "@/assets/suny-cortland-logo.png";
+import sienaCollegeLogo from "@/assets/siena-college-logo.png";
 
 const reasons = [
   { icon: Zap, title: "Mockup-first process", desc: "See your site before you commit. We design a free demo so there are no surprises." },
@@ -16,23 +18,35 @@ const AboutPage = () => {
   return (
     <>
       <Header />
-      <main className="pt-16">
+      <main className="pt-28">
         {/* Story */}
         <section className="section-padding">
           <div className="container-tight max-w-3xl">
             <div className="inline-flex items-center gap-1.5 px-3 py-1 mb-6 rounded-full bg-primary/10 text-primary text-sm font-medium">
               <MapPin size={14} />
-              <span>Based in Orange County, NY</span>
+              <span>Based in Hudson Valley, NY</span>
             </div>
             <h1 className="font-heading text-4xl sm:text-5xl font-bold text-foreground leading-tight">
               We help local businesses look legit online
             </h1>
             <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-              MC WebDev was started with a simple idea: small businesses deserve websites that are just as professional as the big guys — without the big price tag.
+              MC WebDev was started by a two-person team of recent college graduates with a simple idea: small businesses deserve websites that are just as professional as the big guys — without the big price tag.
             </p>
             <p className="mt-4 text-muted-foreground leading-relaxed">
-              We work with barbershops, restaurants, contractors, auto shops, and service businesses across Orange County, NY. Our mockup-first process means you see exactly what you're getting before you spend a dime. No surprises. No jargon. Just clean, fast websites that bring in more customers.
+              We work with barbershops, restaurants, contractors, auto shops, and service businesses across Hudson Valley, NY. Our mockup-first process means you see exactly what you're getting before you spend a dime. No surprises. No jargon. Just clean, fast websites that bring in more customers.
             </p>
+
+            {/* Education Logos */}
+            <div className="mt-10 pt-8 border-t border-border">
+              <div className="flex items-center gap-2 mb-6 text-muted-foreground">
+                <GraduationCap size={18} />
+                <span className="text-sm font-medium">Where we studied</span>
+              </div>
+              <div className="flex items-center justify-start gap-10 sm:gap-16">
+                <img src={sunyCortlandLogo} alt="SUNY Cortland" className="h-32 sm:h-40 w-auto object-contain" />
+                <img src={sienaCollegeLogo} alt="Siena College" className="h-24 sm:h-32 w-auto object-contain" />
+              </div>
+            </div>
           </div>
         </section>
 

@@ -48,13 +48,13 @@ const ServicesPage = () => {
   return (
     <>
       <Header />
-      <main className="pt-16">
+      <main className="pt-28">
         {/* Intro */}
         <section className="section-padding bg-secondary text-secondary-foreground">
           <div className="container-tight">
             <div className="inline-flex items-center gap-1.5 px-3 py-1 mb-6 rounded-full bg-primary/20 text-primary text-sm font-medium">
               <MapPin size={14} />
-              <span>Serving Orange County, NY businesses</span>
+              <span>Serving Hudson Valley, NY businesses</span>
             </div>
             <h1 className="font-heading text-4xl sm:text-5xl font-bold leading-tight max-w-2xl">
               Web design & development that drives results

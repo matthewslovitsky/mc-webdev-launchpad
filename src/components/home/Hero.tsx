@@ -12,20 +12,18 @@ const trustBadges = [
 
 const Hero = () => {
   return (
-    <section className="relative overflow-hidden bg-background pt-24 pb-16 sm:pt-32 sm:pb-24">
+    <section className="relative overflow-hidden bg-background pt-36 pb-16 sm:pt-44 sm:pb-24">
       <div className="container-tight px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Copy */}
           <div className="animate-fade-in-up">
             <div className="inline-flex items-center gap-1.5 px-3 py-1 mb-6 rounded-full bg-primary/10 text-primary text-sm font-medium">
               <MapPin size={14} />
-              <span>Serving Orange County, NY</span>
+              <span>Serving Hudson Valley, NY</span>
             </div>
-            <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.5rem] font-bold text-foreground leading-[1.1] tracking-tight max-w-xl">
-              Deployment ready websites for not so small businesses - 
-              <span className="block">
-                servicing Orange County, NY and beyond.
-              </span>
+
+            <h1 className="font-heading text-4xl sm:text-5xl lg:text-[3.5rem] font-bold text-foreground leading-[1.1] tracking-tight">
+              High-converting websites for Orange County, NY businesses.
             </h1>
 
             <p className="mt-6 text-lg text-muted-foreground leading-relaxed max-w-lg">

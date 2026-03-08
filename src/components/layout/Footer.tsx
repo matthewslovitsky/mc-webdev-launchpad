@@ -30,10 +30,11 @@ const Footer = () => {
             </Link>
             <p className="mt-3 text-sm text-secondary-foreground/60 leading-relaxed">
               Deployment ready websites for local businesses - servicing Orange County, NY and beyond.
+              High-converting websites for local businesses in Hudson Valley, NY.
             </p>
             <div className="flex items-center gap-1.5 mt-3 text-sm text-secondary-foreground/60">
               <MapPin size={14} />
-              <span>Serving Orange County, NY</span>
+              <span>Serving Hudson Valley, NY</span>
             </div>
           </div>
 
@@ -69,7 +70,7 @@ const Footer = () => {
             <ul className="space-y-2 text-sm text-secondary-foreground/70">
               <li>hello@mcwebdev.com</li>
               <li>(845) 555-0123</li>
-              <li>Orange County, NY</li>
+              <li>Hudson Valley, NY</li>
             </ul>
             {/* Social placeholder */}
             <div className="flex gap-3 mt-4">

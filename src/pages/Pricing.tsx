@@ -69,12 +69,12 @@ const PricingPage = () => {
   return (
     <>
       <Header />
-      <main className="pt-16">
+      <main className="pt-28">
         <section className="section-padding">
           <div className="container-tight">
             <SectionHeader
               badge="Pricing"
-              title="Simple pricing for Orange County businesses"
+              title="Simple pricing for Hudson Valley businesses"
               description="Most sites start at $900. Final pricing depends on pages + features."
             />
 

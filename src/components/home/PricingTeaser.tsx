@@ -34,7 +34,7 @@ const PricingTeaser = () => {
         <SectionHeader
           badge="Pricing"
           title="Websites starting at $900"
-          description="Simple, transparent pricing for Orange County businesses."
+          description="Simple, transparent pricing for Hudson Valley businesses."
         />
 
         <div className="grid sm:grid-cols-3 gap-6">

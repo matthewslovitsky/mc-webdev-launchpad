@@ -17,7 +17,7 @@ const ContactPage = () => {
   return (
     <>
       <Header />
-      <main className="pt-16">
+      <main className="pt-28">
         <section className="section-padding">
           <div className="container-tight">
             <div className="grid lg:grid-cols-2 gap-12">
@@ -88,7 +88,7 @@ const ContactPage = () => {
                       </div>
                       <div>
                         <p className="text-sm font-semibold text-foreground">Service Area</p>
-                        <p className="text-sm text-muted-foreground">Orange County, NY & surrounding areas</p>
+                        <p className="text-sm text-muted-foreground">Hudson Valley, NY & surrounding areas</p>
                       </div>
                     </div>
                   </div>
